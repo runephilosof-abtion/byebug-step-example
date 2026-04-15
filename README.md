@@ -2,6 +2,17 @@
 
 Sometimes, I can use `step`, `next` to get to into the second call made on a line. Other times, the `next` skips the second call.
 
+Run with
+```
+asdf install
+bundle install
+bundle exec rspec
+```
+
+Then `step`, `step`, `next` to see the problem.
+
+## Bug report
+
 With
 ```
 require 'byebug'
