@@ -1,4 +1,4 @@
-= Demonstrate the bug described below and on https://github.com/deivid-rodriguez/byebug/issues/877#issuecomment-4246648231
+# Demonstrate the bug described below and on https://github.com/deivid-rodriguez/byebug/issues/877#issuecomment-4246648231
 
 Sometimes, I can use `step`, `next` to get to into the second call made on a line. Other times, the `next` skips the second call.
 
